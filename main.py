@@ -37,4 +37,4 @@ while counter <= life_expectancy_in_weeks:
 
 percent_lived = round((delta_life_weeks / life_expectancy_in_weeks), ndigits = 3) * 100
 print("\n")
-print(f'You have lived {delta_life_weeks} weeks out of {life_expectancy_in_weeks} weeks.\nThat is {percent_lived} % of your life!\nTime to go and get things done!\n')
+print(f'You have lived {delta_life_weeks} weeks out of {life_expectancy_in_weeks} weeks.\nThat is {percent_lived} % of your life!\nTime to go and get things done!\nGod bless!\n')
