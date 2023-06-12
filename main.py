@@ -22,12 +22,13 @@ time_left_in_weeks = life_expectancy_in_weeks - delta_life_weeks
 # Printing in terminal: X for weeks lived and 0 for weeks left to live
 counter = 0
 while counter <= life_expectancy_in_weeks:
-    while counter < delta_life_weeks:
+    if counter < delta_life_weeks:
         print("X", end = ' ')
-        counter += 1
-    while counter <= life_expectancy_in_weeks:
+    else:
         print("0", end = ' ')
-        counter += 1
+    counter += 1
+    if counter % 52 == 0: #Add a line break after each year (52 weeks)
+        print()
 
 # Calculating the percentage of life lived
 percent_lived = (delta_life_weeks / life_expectancy_in_weeks) * 100
