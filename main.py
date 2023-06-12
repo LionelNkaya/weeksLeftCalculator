@@ -34,4 +34,4 @@ percent_lived = (delta_life_weeks / life_expectancy_in_weeks) * 100
 
 # Providing stats to the user:
 print("\n")
-print(f'You have lived {delta_life} days in your life. \nThat is {delta_life_weeks} weeks out of {life_expectancy_in_weeks} weeks.\nYou have lived {round(percent_lived)} % of your life!\nTime to go and get things done!\nGod bless!\n')
+print(f'You have lived {delta_life.days} days in your life. \nThat is {delta_life_weeks} weeks out of {life_expectancy_in_weeks} weeks.\nYou have lived {round(percent_lived)} % of your life!\nTime to go and get things done!\nGod bless!\n')
